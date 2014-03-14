@@ -1,0 +1,44 @@
+/*--------------------------------
+	JMAG Style Sheet
+	author: Miguel Cumbay
+--------------------------------*/
+body{
+	position : relative;
+	font-family: Arial, Helveltica, sans-serif;
+	font-size: 0.75 em;
+	text-align: left;
+}
+
+.button{
+	margin: 1px 0 1px 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: black;
+	font-weight: bold;
+	background-color: #ccccff;
+	border: 1px solid rgb(51,153,255);
+}
+
+#mainbox{
+	width: 480px;
+	height: 250px;
+	border: 1px solid black;
+	background-color: #D8D8D8;
+	margin: 5px;
+	padding: 10px;
+}
+.box{
+	border: 1px solid black;
+	background-color: #F2F2F2;
+	margin: 5px;
+	padding: 8px;
+	
+}
+
+input[type="text"] {
+    width: 250px;
+}
+
+label{
+	font-weight:bold;
+}
