@@ -4,7 +4,7 @@
 </head>
 <body>
 <%@ include file="header.jspf"%>
-<form action="/JMAG/generate.do" method="post">
+<form action="<%= request.getContextPath() %>/generate.do" method="post">
 	<div id="mainbox">
 		<div class="box">
 		Choose the Type of Application:<br>
